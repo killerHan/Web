@@ -1,0 +1,18 @@
+lamlam : 
+1.https://stackoverflow.com/questions/41911610/how-to-move-div-randomly-on-load-of-the-page-using-javascript
+2.https://www.w3schools.com/
+4.www.google.com
+5.https://www.w3schools.com/howto/howto_css_timeline.asp
+6.https://freefrontend.com/css-timelines/
+7.https://css-tricks.com/forums/topic/change-body-background-every-10-sec/
+8.https://developers.google.com/maps/documentation/javascript/adding-a-google-map
+9.https://www.embedgooglemap.net/
+10.https://www.techrepublic.com/article/link-the-business-address-on-your-website-to-a-google-map/
+11.https://www.w3schools.com/w3css/w3css_templates.asp
+12.https://templated.co/
+13.https://www.free-css.com/
+14.http://www.wibibi.com/info.php?tid=129
+15.https://www.tooplate.com/
+16.https://fontawesome.com/
+17.https://pjchender.blogspot.com/2017/12/5-fontawesome-5.html
+18.

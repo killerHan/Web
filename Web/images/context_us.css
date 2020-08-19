@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.responsive {
+ background-image:url("wallpaper.jpg");
+
+height:100%;
+
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size:cover;
+    box-sizing: border-box;
+	text-align:center;
+}
+
+body,html{
+    height:100%;
+    margin:0;
+}
+
+.header{
+	font-size: 25px;
+	color:white;
+
+}
+
+
+
+
+.container{
+height:100px;
+width:900px;
+text-al1ign:left;
+position:absolute;
+margin:auto;
+top:0;
+bottom:0;
+left:0;
+right:0;
+}
+.container li{/*显示每个li的属性*/
+    background-color: black;
+    display: block;
+    height: 100px;
+    width: 150px;
+    opacity: 0.8;
+    float: left;
+    margin-left: 20px;
+	margin-top:20px;
+}
+.container li:hover{/*按键变白*/
+    background-color: white;
+    opacity: 0.5;
+}
+.container li img{/*每格内的图案位置*/
+    margin:30px 0 0 35px;
+}
+.container li p{/*每格内的图案位置*/
+    text-align: center;
+    color: white;
+    font-size: 25px;
+}
+
+
+
+@media only screen and (max-width: 700px) {/*当屏幕size小于700，变换格子摆放的位置*/
+	.container{
+	height:300px;
+	width:350px;
+	}
+
+	
+}

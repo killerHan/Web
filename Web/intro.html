@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href=".\images\index.css" type="text/css">
+<script type="text" src="./jquery-3.3.1.min.js"></script>
+
+<script>
+
+										
+											function USA() { 
+												document.getElementsByClassName("responsiveIntro")[0].style.backgroundImage = 'url(./images/usa.png)';
+											} 
+											function British() { 
+												document.getElementsByClassName("responsiveIntro")[0].style.backgroundImage = 'url(./images/wallpaper9.png)';
+											} 											
+											function China() { 
+                                                 document.getElementsByClassName("responsiveIntro")[0].style.backgroundImage = 'url(./images/china.png)';
+											} 
+											function France() { 
+                                                 document.getElementsByClassName("responsiveIntro")[0].style.backgroundImage = 'url(./images/france.png)';
+											} 
+											function Russia() { 
+                                                 document.getElementsByClassName("responsiveIntro")[0].style.backgroundImage = 'url(./images/russia.png)';
+											} 
+														
+			
+										</script>
+</head>
+<body>
+
+<div class="responsiveIntro">	
+
+<div class="containerIntro">
+<p class="header">Background:</br><p>
+ </br><p>Due to the powers vested in its Charter and its unique international character, the United Nations can take action on the issues confronting humanity in the 21st century, such as peace and security, climate change, sustainable development, human rights, disarmament, terrorism, humanitarian and health emergencies, gender equality, governance, food production, and more.
+The UN also provides a forum for its members to express their views in the General Assembly, the Security Council, </br><br/></p>  <p>  The Economic and Social Council, and other bodies and committees. By enabling dialogue between its members, and by hosting negotiations, the Organization has become a mechanism for governments to find areas of agreement and solve problems together.
+The UN's Chief Administrative Officer is the Secretary-General.</p><button id = "British"  onclick = "British()" type = "button">
+</div>
+									<div class="buttons">
+										<ul> 
+											<li><button id = "British"  onclick = "British()" type = "button"><img src = "images\wallpaper9.png" style="width:50px"></button></li>
+										</ul>
+										<ul> 
+											<li><button id = "USA"  onclick = "USA()" type = "button"><p><img src = "images\USA.png" class = "lamimg" style="width:50px"></p></button></li>
+										</ul>
+										<ul> 
+											<li><button id = "France"  onclick = "France()" type = "button"><p><img src = "images\France.png" class = "lamimg"  style="width:50px"></p></button></li>
+										</ul>
+										<ul> 
+											<li><button id = "China"  onclick = "China()"type = "button"><p><img src = "images\china.png" class = "lamimg" style="width:50px"></p></button></li>
+										</ul>	
+										<ul> 
+											<li><button id = "China"  onclick = "Russia()"type = "button"><a id = "Russia_song" onclick = "choose(this.id)"><p><img src = "images\Russia.png" class = "lamimg" style="width:50px"></p></a></li>
+										</ul>  
+
+                                    </div>
+										
+</div>
+</body>
+</html>
